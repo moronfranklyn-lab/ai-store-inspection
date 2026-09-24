@@ -1,0 +1,7 @@
+.env
+output/
+data/photos/
+data/reviews/
+__pycache__/
+*.pyc
+.venv/

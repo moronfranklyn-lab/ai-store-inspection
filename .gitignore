@@ -1,0 +1,30 @@
+# ── 私有资产：前雇主门店照片与内部系统截图，禁止提交 ──
+_私有_不公开/
+
+# ── 与本项目无关的第三方材料，不纳入本仓库 ──
+agent-blueprint-main_副本/
+
+# ── 实验数据（含真实门店照片，不进仓库）──
+**/experiment/data/
+**/data/photos/
+**/data/reviews/
+**/output/
+
+# ── 密钥与本地环境：绝不进仓库 ──
+.env
+.env.*
+!.env.example
+**/.venv/
+**/.uv-cache/
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+
+# ── 系统与编辑器 ──
+.DS_Store
+.idea/
+.vscode/
+
+# ── 例外：experiment/ 下是我们自己要公开的评测代码，不受第三方 kit 的 data/ 规则影响 ──
+!**/experiment/data/
+!**/experiment/data/**
