@@ -3,6 +3,7 @@ _私有_不公开/
 
 # ── 与本项目无关的第三方材料，不纳入本仓库 ──
 agent-blueprint-main_副本/
+AI产品开发助手/
 
 # ── 实验数据（含真实门店照片，不进仓库）──
 **/experiment/data/
@@ -24,7 +25,3 @@ agent-blueprint-main_副本/
 .DS_Store
 .idea/
 .vscode/
-
-# ── 例外：experiment/ 下是我们自己要公开的评测代码，不受第三方 kit 的 data/ 规则影响 ──
-!**/experiment/data/
-!**/experiment/data/**
